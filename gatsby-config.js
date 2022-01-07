@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Potentia Website",
+    title: `Potentia Robotics`,
+    titleTemplate: "%s | Potentia Robotics",
+    description: `The website of Potentia Robotics, the first team of high school students to design and build a fully-functioning humanoid robot.`,
+    author: `@potentiarobotics`,
+    siteUrl:"https://potentiarobotics.com",
+    keywords: "potentia robotics, potentia, robotics, high school, tjhsst",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
@@ -17,6 +21,18 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Potentia Robotics`,
+        short_name: `potentia`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `minimal-ui`,
+        icon: `./src/images/icon.png`, // This path is relative to the root of the site.
+      },
     },
   ],
 };

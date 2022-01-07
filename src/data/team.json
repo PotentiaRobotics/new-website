@@ -1,0 +1,24 @@
+{
+  "Leads": {
+    "description": "The leads at Potentia oversee teams of members in different subgroups working on everything from gait generation software to outreach initiatives.",
+    "data": [
+      {
+        "name": "Aditya Vasantharao",
+        "pos": "Project Lead",
+        "bio": "im adi im cool",
+        "img": "adityavasantharao"
+      }
+    ]
+  },
+  "Software": {
+    "description": "The software subteam at Potentia handles everything involving the \"brain\" of Olympian and is the largest subteam at Potentia. This subteam creates and manages gait and balance algorithms, control systems, computer vision/navigation, and the website.",
+    "data": [
+      {
+        "name": "Vaditya Asantharao",
+        "pos": "Software Lead",
+        "bio": "im vadi im cool",
+        "img": "adityavasantharao"
+      }
+    ]
+  }
+}

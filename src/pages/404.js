@@ -1,53 +1,28 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import SEO from '../components/SEO'
+import Layout from "../components/layout"
+import { graphql, Link, useStaticQuery } from "gatsby"
+import Hero from "../components/index/hero"
+import { StaticImage } from "gatsby-plugin-image"
+import { FaArrowRight } from "react-icons/fa"
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
-// markup
 const NotFoundPage = () => {
+  const { heroImage } = useStaticQuery(graphql`
+    query notFoundQuery {
+      heroImage: file(relativePath: { eq: "olympian_hero.png" }) {
+				childImageSharp {
+					fluid(quality: 95) {
+						...GatsbyImageSharpFluid
+					}
+				}
+			}
+    }
+  `)
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <Layout>
+      <SEO title='404 No Page Found' />
+      <Hero image={heroImage} title="404" tagline="Page not found! Use the navbar to go to the right page." />
+    </Layout>
   )
 }
 
