@@ -5,6 +5,8 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import Hero from "../components/index/hero"
 import { StaticImage } from "gatsby-plugin-image"
 import { FaArrowRight } from "react-icons/fa"
+import MiniTimeline from "../components/minitimeline"
+import TimelineData from '../data/timeline.json'
 
 const IndexPage = () => {
   const { heroImage } = useStaticQuery(graphql`
@@ -71,11 +73,18 @@ const IndexPage = () => {
       <div className="bg-gray-50">
         <div className='mx-auto max-w-screen-xl py-12 pt-12 px-4 sm:px-8 md:px-12 text-center'>
           <h1 className="poppins text-darkblue font-bold text-3xl mb-8">Timeline</h1>
-          <Link to='/olympian/' className='px-6 py-4 bg-darkblue text-white rounded-md hover:bg-black'>
+          <Link to='/timeline/' className='px-6 py-4 bg-darkblue text-white rounded-md hover:bg-black'>
             <div className="text-base inline font-semibold align-middle">
               Full Timeline <FaArrowRight className='ml-2 inline' />
             </div>
           </Link>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+            {TimelineData.reverse().slice(0, 3).map(item => {
+              return (
+                <MiniTimeline img={item.img} desc={item.desc} date={item.date} title={item.title}/>
+              )
+            })}
+          </div>
         </div>
       </div>
     </Layout>

@@ -5,8 +5,56 @@
       {
         "name": "Aditya Vasantharao",
         "pos": "Project Lead",
-        "bio": "im adi im cool",
+        "bio": "Hi! I’m Aditya, the Founder and Project Lead of Potentia Robotics, and a junior at TJHSST. Oftentimes we believe that high-schoolers—due to financial constraints and gaps in knowledge—are limited in what they can achieve, especially when it comes to large-scale engineering projects that are more suited to being conducted in corporate R&D labs or PhD labs at large, world-renowned universities. I created Potentia Robotics to prove that this isn’t the case—that it’s definitely possible for high schoolers to conduct groundbreaking research that makes the stuff of sci-fi movies a reality. I want to show that there is no barrier of entry to these projects; all that’s necessary to get started is a passionate team, some Google Docs, and an unyielding will to see the project through to completion. As the Project Lead of Potentia Robotics, I’m responsible for managing the team’s overall operations and managing the overall design of Olympian by working with subteam leads to make top-level design decisions, crafting the team’s overall business strategy, managing and fine-tuning the team’s organizational structure, being the representative for the team when interacting with sponsors, partners, and the outside world as a whole, and serving as the bridge between each of the subteams. I also sometimes do more technically involved work (programming, designing, accounting, etc.) in each subteam.",
         "img": "adityavasantharao"
+      },
+      {
+        "name": "Audhav Durai",
+        "pos": "Software Lead",
+        "bio": "I’m Audhav Durai, the Software Lead for Potentia Robotics. Motivated by the research being done at various colleges and academic institutions, I became a part of Potentia Robotics so that I could help tackle a high-level project. Having the opportunity to conduct research that is being done in the real world as a high schooler is an amazing experience. My role on the team is to manage the programming subteam, which means keeping track of our progress, making sure we are always on task, and meeting both exterior and team-set deadlines. Additionally, I do various tasks in the programming subteam as well.",
+        "img": "audhavdurai"
+      },
+      {
+        "name": "Ram Reddy",
+        "pos": "Control Systems Lead",
+        "bio": "Hello, I’m Ram Reddy and I am the control systems lead at Potentia Robotics. I work in the programming team of control systems, engine software, and web development. I joined the team because I have always loved to program and build model robots since I was in elementary school. It has been an amazing experience working with like-minded individuals striving for the same goal and I am looking forward to what the future holds.",
+        "img": "ramreddy"
+      },
+      {
+        "name": "Ryan Park",
+        "pos": "Computer Vision Lead",
+        "bio": "Hello! My name is Ryan Park and I’m the Computer Vision Lead for Potentia Robotics. I work on creating the algorithms necessary for navigational analysis and trajectory planning for our robot, using lidars and cameras. I joined the team because I have always enjoyed learning new things and experiences. Specifically, Potentia has given me an outlet to create models, pursue more complex areas of programming, and be part of a large-scale project. I look forward to working with all our members and am excited to see what the future will hold.  ",
+        "img": "nopic"
+      },
+      {
+        "name": "Raghav Tirumale",
+        "pos": "Hardware and Electronics Lead",
+        "bio": "Hello! My name is Raghav Tirumale and I’m the Hardware and Electronics Lead for Potentia Robotics. I work on designing the electrical systems of our robot and also determine which sensors, motors, microcontrollers, and other hardware components are the most suitable for the project. I’ve done robotics for a while now through organizations like FIRST and KIPR, however, this is the first time I have been involved in such an exciting large-scale project! I have enjoyed working with all of our members, and I’m excited to see what we can accomplish together as a team.",
+        "img": "raghavtirumale"
+      },
+      {
+        "name": "Shahzad Sohail",
+        "pos": "Manufacturing Lead",
+        "bio": "Hi, I’m Shahzad! I manage the Manufacturing aspects of Potentia Robotics, specifically bringing CAD and designs into real life. The Engineering team and I work on choosing the correct materials for the robot, finding parts to fit our needs, and making sure everything works together smoothly. I applied to join the team because of the unique goal of the club. In the past, I’ve worked on countless robots, but none are as intriguing as a full-size humanoid. I’m grateful for being brought into the club, and it’s been a pleasure working with the Engineering team and other members to create our robot. ",
+        "img": "shahzadsohail"
+      },
+      {
+        "name": "Sai Mattapalli",
+        "pos": "Business/Finance Lead",
+        "bio": "Hey! My name is Sai. As the business lead, my role centers around team management, spearheading networking with sponsors, organizing financial accounts, formulating innovative methods of fundraising that not only help towards the development of our robot Olympian but also help spark a love for STEM in the community. I joined Potentia to help pave the path for other high schoolers and show them that the limitations placed upon us are not rigid but with determination and collaboration, surpassable.   ",
+        "img": "saimattapalli"
+      },
+      {
+        "name": "Ram Vempati",
+        "pos": "Design Lead + Gait Generation Lead",
+        "bio": "Hi! I’m Ram Vempati, gait generation and design lead at Potentia Robotics. As gait generation lead, my team and I are responsible for making the algorithms that allow for OLYMPIAN to dynamically balance and walk on any terrain while taking environmental, kinematic and mechanical constraints into account. Meanwhile, my design team and I are responsible for designing the entire robot in CAD and simulating it with tools like MATLAB, ensuring its feasibility in the real world. My teams and I do the impossible every day, making leaps and bounds in one of the most restrictive and undocumented fields in engineering. I joined Potentia Robotics to help make history, and I’m thrilled to see how far OLYMPIAN can go.",
+        "img": "ramvempati"
+      },
+      {
+        "name": "Anirudh Mantha",
+        "pos": "Events Lead",
+        "bio": "Hi! I am Anirudh and I am a sophomore at TJHSST. I am the Events lead in the Business subteam, along with a member of the Computer Vision team. As part of the business team, I am in charge of coming up with fundraisers, planning summer camps, and helping Sai in reaching out to professors and companies to get feedback about our robot. Being on the business team, we have to know what is happening in both software and engineering. On the CV side of the software team, we are responsible for the “eyes” of the robot and work a lot with the electronics team to help the Olympian see where she is going. ",
+        "img": "anirudhmantha"
       }
     ]
   },
@@ -14,10 +62,115 @@
     "description": "The software subteam at Potentia handles everything involving the \"brain\" of Olympian and is the largest subteam at Potentia. This subteam creates and manages gait and balance algorithms, control systems, computer vision/navigation, and the website.",
     "data": [
       {
-        "name": "Vaditya Asantharao",
-        "pos": "Software Lead",
-        "bio": "im vadi im cool",
-        "img": "adityavasantharao"
+        "name": "Supreet Mishra",
+        "pos": "Control Systems",
+        "bio": "Hi, I’m Supreet! I am a junior at TJHSST and I primarily work in the Control Systems subteam of Potentia Robotics. ",
+        "img": "supreetmishra"
+      },
+      {
+        "name": "Zani Xu",
+        "pos": "Gait Generation",
+        "bio": "Hey everyone! I'm Zani, and I am a sophomore at TJHSST. I am part of the Gait Gen team, where we program the foot trajectory and balance of the robot. I joined Potentia because I am inspired by the aspirations, and I am excited to see what we will achieve.",
+        "img": "zanixu"
+      },
+      {
+        "name": "Brian Zhou",
+        "pos": "Gait Generation",
+        "bio": "Hi! I’m Brian, a sophomore at TJHSST. I’m on the gait generation team, where we help Olympian balance and walk on non-ideal terrain. I joined the team because I love the vision of Potentia, and can’t wait to see how far we go pushing boundaries in not only engineering but also in reshaping how high-school research can be achieved.",
+        "img": "brianzhou"
+      },
+      {
+        "name": "Sritan Motati",
+        "pos": "Computer Vision + Webmaster",
+        "bio": "Hey! My name is Sritan Motati, and along with being the webmaster at Potentia Robotics, I am a member of the computer vision team, where I work on creating the code for Olympian’s navigation and analysis of its environment with LiDAR and cameras. While I have had experience with programming and CV/ML in the past, I joined Potentia because I wanted to be part of a team that will leave a legacy far greater than one person could, and with such a talented team, I’m sure that legacy will be cemented in no time. ",
+        "img": "sritanmotati"
+      },
+      {
+        "name": "Anish Suvarna",
+        "pos": "Gait Generation",
+        "bio": "Hi! I’m Anish Suvarna, and I am a member of the gait generation team at Potentia Robotics. I work on using inverse kinematics, proportional-integral-derivative control, and center of mass calculations to create a footstep trajectory for Olympian. Last year, I joined this team because I wanted to contribute my skills in Python programming, engineering, collaboration, and teamwork. Overall, I wanted to be a part of this mission and help show the world that it is possible to do what we are doing.",
+        "img": "anishsuvarna"
+      },
+      {
+        "name": "Kaitlyn Lu",
+        "pos": "Control Systems",
+        "bio": "Hello, my name is Kaitlyn! I’m on the control systems team, where I work with the robot-to-user interfaces.",
+        "img": "kaitlynlu"
+      }
+    ]
+  },
+  "Engineering": {
+    "description": "The engineering subteam at Potentia is responsible for the manufacturing and design of Olympian.",
+    "data": [
+      {
+        "name": "Brij Bhagat",
+        "pos": "Design",
+        "bio": "Hi, I’m Brij Bhagat, and I work on the design end of the engineering team at Potentia Robotics. My team members and I work on developing CAD models of different components of Olympian, as well as researching the right materials for the job. I joined Potentia because I wanted to be a part of the effort to make humanoid robotics accessible to everyone, not just well-funded companies or universities.",
+        "img": "brijbhagat"
+      },
+      {
+        "name": "Taran Kamireddy",
+        "pos": "Design",
+        "bio": "Hello, I’m Taran Kamireddy, a sophomore on the design team for Potentia Robotics. My job is to use CAD to design various parts of the Olympian in with the rest of the design team. I joined Potentia Robotics because I wanted to contribute my experience and improve my engineering skills. I’m glad I didn’t miss out on such an incredible opportunity.",
+        "img": "tarankamireddy"
+      },
+      {
+        "name": "Pranav Vadde",
+        "pos": "Design",
+        "bio": "Hey! My name is Pranav Vadde and I’m a sophomore part of Potentia’s engineering team. I’m responsible for working with other members of my team to help design, construct, and document all of the physical things on Olympian and work with our other teams to get Olympian working. I’m definitely excited to work on something that’s as complex and involved as Olympian.",
+        "img": "pranavvadde"
+      },
+      {
+        "name": "Paul Hwang",
+        "pos": "Design",
+        "bio": "Hi! My name is Paul Hwang, and I am a part of the engineering team for Potentia. Specifically, I am a part of the design subteam where we, obviously, design the robot, but we also simulate and perfect Olympian’s skeleton. I joined Potentia since this opportunity is truly marvelous. With the group’s current progress, I believe the outcome will be revolutionary.",
+        "img": "paulhwang"
+      },
+      {
+        "name": "Lindsay Hwang",
+        "pos": "Design",
+        "bio": "Hi! I’m Lindsay Hwang and I’m currently a sophomore. I’m part of Potentia’s engineering team, and I have the job of creating CADs for parts of the robot, as well as researching the materials needed to create a physical product. As someone who is passionate about the engineering field, I joined Potentia to gain more experience as well as contribute to this complex and in-depth project.",
+        "img": "lindsayhwang"
+      }
+    ]
+  },
+  "Electronics": {
+    "description": "The electronics subteam at Potentia designs and assembles the circuitry that powers Olympian's body and integrates the software and hardware.",
+    "data": [
+      {
+        "name": "Harika Akundi",
+        "pos": "Electronics",
+        "bio": "Hi! I’m Harika! I’m a member of the electronics team. I joined Potentia to learn more about the physics and electronics behind robotics, and currently contribute by working on PCB design, communication, and energy management. Working on a large-scale dream like this to help humanity is truly my passion and I’m happy to be here, learning and adding to the project!",
+        "img": "harikaakundi"
+      },
+      {
+        "name": "Shaurya Jain",
+        "pos": "Electronics",
+        "bio": "Hello! I’m Shaurya and I am currently a freshman, and I work as a part of the electronics team. I want to learn as much as I can about science and technology, and I am very passionate about robotics, so I joined potentia. I’m very interested in modern scientific and technological developments, so getting to work on a ground breaking project like potentia is really exciting!",
+        "img": "nopic"
+      },
+      {
+        "name": "Vrishak Vemuri",
+        "pos": "Electronics",
+        "bio": "I’m Vrishak Vemuri, a member of the Hardware and Electronics team for Potentia Robotics. I work with interfacing the electric and electronic systems for the robot. I also program the Arduino Mega 2560 microcontroller to receive inputs from the various sensors such as IMUS, and send specific outputs to the motors. I’m passionate about electric and electronic engineering, and I feel that being a part of Potentia shows that nothing is impossible, and there will always be a specific method for any goal.",
+        "img": "nopic"
+      }
+    ]
+  },
+  "Business": {
+    "description": "The business team handles the finance and outreach of Potentia Robotics, which includes anything from securing funding to hosting STEM events for the community.",
+    "data": [
+      {
+        "name": "Dhruv Rana",
+        "pos": "Outreach",
+        "bio": "Hey! I’m Dhruv, a member of the Business/Outreach team for Potentia Robotics. Our team works on receiving funding, and networking with companies. For example, we are currently working on receiving multiple grants from companies like the Navy, and other STEM/general grants. I joined Potentia to contribute to a truly life-changing and one-of-a-kind mission, that’s never been done before.",
+        "img": "dhruvrana"
+      },
+      {
+        "name": "Alia Marzyie",
+        "pos": "Outreach",
+        "bio": "Hello, my name is Alia.",
+        "img": "nopic"
       }
     ]
   }

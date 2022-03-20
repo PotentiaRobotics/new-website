@@ -63,3 +63,25 @@ a, button {
 .partial-height {
   height: 60vh;
 }
+
+.hover-up {
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.hover-up:hover {
+  transform: translateY(-10px);
+}
+
+.timeline-container .timeline-circle, .timeline-container .timeline-circle svg {
+  transition-duration: 0.2s;
+  cursor:pointer;
+}
+
+.timeline-container:hover .timeline-circle {
+  @apply bg-blue-600;
+}
+
+.timeline-container:hover .timeline-circle svg {
+  @apply text-white;
+}
