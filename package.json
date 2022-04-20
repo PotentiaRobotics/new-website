@@ -8,8 +8,9 @@
     "gatsby"
   ],
   "scripts": {
+    "develop": "gatsby develop",
     "build": "CI=false && gatsby build",
-    "start": "serve -s build/"
+    "start": "gatsby build"
   },
   "dependencies": {
     "gatsby": "^4.10.1",
