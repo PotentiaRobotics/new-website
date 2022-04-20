@@ -5,6 +5,7 @@ import HamburgerMenu from "react-hamburger-menu"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false) // for mobile navbar open/closed
+  if(typeof window !== "undefined"){
   const [scrollState, setScrollState] = useState(window.scrollY <= 10 ? 'top' : 'scroll') // for navbar bg transition
   let listener = null
   useEffect(() => {
@@ -103,6 +104,9 @@ const Navbar = () => {
       </div>
     </nav>
   )
+  } else {
+    return null
+  }
 }
 
 export default Navbar
