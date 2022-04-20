@@ -5,7 +5,7 @@ module.exports = {
     description: `The website of Potentia Robotics, the first team of high school students to design and build a fully-functioning humanoid robot.`,
     author: `@potentiarobotics`,
     siteUrl:"https://potentiarobotics.com",
-    keywords: "potentia robotics, potentia, robotics, high school, tjhsst",
+    keywords: "potentia robotics, potentia, robotics, high school, humanoid robotics, first high school humanoid robot, tjhsst",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",

@@ -45,7 +45,7 @@ const AboutPage = () => {
       <div className='flex space-x-6 justify-center flex-wrap'>
         {teams.map(team => {
           return (
-            <button className={"font-bold px-8 py-4 mb-6 text-black rounded-md shadow " + (team == curTeam ? "bg-green-100 hover:bg-green-100" : "bg-gray-100 hover:bg-gray-200")} onClick={() => setCurTeam(team)}>{team}</button>
+            <button className={"font-bold px-8 py-4 mb-6 text-black rounded-md shadow " + (team == curTeam ? "bg-blue-100 hover:bg-blue-100" : "bg-gray-100 hover:bg-gray-200")} onClick={() => setCurTeam(team)}>{team}</button>
           )
         })}
       </div>

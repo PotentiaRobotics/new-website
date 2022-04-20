@@ -1,20 +1,26 @@
 [
   {
     "img": "olympian_waving.png",
-    "title": "Potentia Balance Algorithm Complete!",
-    "desc": "Potentia has created the world's first robot with balancing capabilites built by high schoolers.",
-    "date": "February 2022"
-  },
-  {
-    "img": "olympian_waving.png",
-    "title": "Potentia Balance Algorithm Complete!",
-    "desc": "Potentia has created the world's first robot with balancing capabilites built by high schoolers.",
+    "title": "Gait Generation Algorithm Complete",
+    "desc": "Inverse Kinematics-driven gait generation algorithm demo displayed Olympian walking with a human-like gait in simulation. The highly-scalable algorithm is able to generate a human-like gait trajectory given just a step height and a step length.",
     "date": "March 2022"
   },
   {
     "img": "olympian_waving.png",
-    "title": "Potentia Balance Algorithm Complete!",
-    "desc": "Potentia has created the world's first robot with balancing capabilites built by high schoolers.",
-    "date": "April 2022"
+    "title": "Lower Body Design Complete",
+    "desc": "Lower body design complete in CAD, leg manufacturing begun.",
+    "date": "February 2022"
+  },
+  {
+    "img": "olympian_waving.png",
+    "title": "Balance Algorithm Complete",
+    "desc": "Modified PID balance algorithm demo showed Olympian balancing in simulation after receiving a 4500 N impact to the chest.",
+    "date": "July 2021"
+  },
+  {
+    "img": "olympian_waving.png",
+    "title": "Potentia Robotics Created",
+    "desc": "Potentia Robotics was created with an initial team of 15 people, comprised of students from the Thomas Jefferson High School for Science and Technology.",
+    "date": "December 2020"
   }
 ]

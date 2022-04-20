@@ -23,7 +23,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title='Home' />
-      <Hero image={heroImage} title="Potentia Robotics" tagline="The first high school team to design and build a humanoid robot." />
+      <Hero image={heroImage} title="Potentia Robotics" tagline="The first high school team to design and build a walking humanoid robot." />
       <div className='mx-auto max-w-screen-xl py-12 pt-12 px-4 sm:px-8 md:px-12'>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className='text-lg'>
@@ -59,7 +59,7 @@ const IndexPage = () => {
             <div className='text-lg'>
               <h1 className="poppins text-darkblue font-bold text-3xl mb-6">What We're Building</h1>
               <p className='mb-8'>
-              We're building <strong>Olympian</strong>: our low-cost, 6-foot tall, bipedal humanoid robot with a human-like dynamically stable gait, limb mobility, and balance capabilities, that can be controlled effectively and efficiently from afar. [ADD MORE TECHNICAL DETAILS HERE]
+              We're building <strong>Olympian</strong>: our low-cost, 6-foot tall, bipedal humanoid robot with a human-like dynamically stable gait, limb mobility, and balance capabilities, that can be controlled effectively and efficiently from afar.
               </p>
               <Link to='/olympian/' className='px-6 py-4 bg-darkblue text-white rounded-md hover:bg-black'>
                 <div className="text-base inline font-semibold align-middle">
@@ -79,7 +79,7 @@ const IndexPage = () => {
             </div>
           </Link>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            {TimelineData.reverse().slice(0, 3).map(item => {
+            {TimelineData.slice(0, 3).map(item => {
               return (
                 <MiniTimeline img={item.img} desc={item.desc} date={item.date} title={item.title}/>
               )
