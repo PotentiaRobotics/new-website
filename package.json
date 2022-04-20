@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "CI=false && gatsby build",
-    "start": "gatsby build"
+    "start": "gatsby serve"
   },
   "dependencies": {
     "gatsby": "^4.10.1",
