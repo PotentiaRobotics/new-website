@@ -11,7 +11,7 @@
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "build": "CI=false && gatsby build",
+    "build": "gatsby build",
     "start": "serve -s build/"
   },
   "dependencies": {
